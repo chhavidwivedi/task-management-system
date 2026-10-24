@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://task-management-system-dwq8.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
